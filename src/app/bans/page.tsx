@@ -1,8 +1,13 @@
+import { type Metadata } from "next";
 import dynamic from 'next/dynamic';
 import { Suspense } from 'react';
 import { Loading } from '@/components/shared/feedback/loading';
 
-// Use the existing Bans component that handles all the data fetching client-side
+export const metadata: Metadata = {
+  title: "ExhibitionRP Bans",
+  description: "View in-game bans.",
+};
+
 const Bans = dynamic(
   () => import('./_components/bans'),
   { 

@@ -1,5 +1,11 @@
+import { type Metadata } from "next";
 import { Suspense } from "react";
 import { ProfileContent } from "../_components/profile-content";
+
+export const metadata: Metadata = {
+  title: "ExhibitionRP Profile",
+  description: "View a player's profile.",
+};
 
 interface ProfilePageProps {
   params: Promise<{

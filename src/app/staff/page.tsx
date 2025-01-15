@@ -2,7 +2,7 @@ import { type Metadata } from "next";
 import Staff from "./_components/staff";
 
 export const metadata: Metadata = {
-  title: "Staff - Exhibition",
+  title: "ExhibitionRP Staff",
   description: "View all of our lovely staff members.",
 };
 
