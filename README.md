@@ -1,29 +1,13 @@
-# Create T3 App
+# ExhibitionRP Hub
+A modern, community-driven redesign of the [ExhibitionRP Hub](https://hub.exhibitionrp.com).
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+## Overview
+This project is a proof-of-concept that aims to modernize and enhance the ExhibitionRP Hub experience through improved design, bug fixes, and performance optimizations. Originally conceived as a old silly design, this implementation combines familiar elements from the current hub with more modern design patterns. 
 
-## What's next? How do I make an app with this?
+Do keep in mind this is a old recovered proof of concept and may not be fully optimized or production ready.
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+## Contributing
+I welcome contributions! If have any ideas or suggestions, please feel free to reach out to me directly or by creating a pull request.
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
-
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
-
-## Learn More
-
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
-
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
-
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
-
-## How do I deploy this?
-
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+## Disclaimer
+This is a community-made project and is not officially affiliated with or endorsed by ExhibitionRP and is purely aimed to be a proof of concept.

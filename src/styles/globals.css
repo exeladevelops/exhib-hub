@@ -1,3 +1,73 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  /* I should have used a color picker for the theme but where is the fun in that... i just guessed... */
+  :root {
+    --background: 220 13% 9%;
+    --foreground: 220 8% 85%;
+    --card: 220 13% 10%;
+    --card-foreground: 220 8% 80%;
+    --popover: 220 13% 7%;
+    --popover-foreground: 215 8% 65%;
+    --primary: 220 8% 85%;
+    --primary-foreground: 220 13% 9%;
+    --secondary: 220 10% 14%;
+    --secondary-foreground: 220 8% 85%;
+    --muted: 220 10% 14%;
+    --muted-foreground: 210 8% 65%;
+    --accent: 220 10% 14%;
+    --accent-foreground: 220 8% 85%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 8% 85%;
+    --border: 220 13% 13%;
+    --input: 220 13% 13%;
+    --ring: 220 13% 18%;
+    --radius: 0.5rem;
+    --shadow: 220 13% 5%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+
+  .dark {
+    --background: 220 13% 9%;
+    --foreground: 220 8% 85%;
+    --card: 220 13% 10%;
+    --card-foreground: 220 8% 80%;
+    --popover: 220 13% 7%;
+    --popover-foreground: 215 8% 65%;
+    --primary: 220 8% 85%;
+    --primary-foreground: 220 13% 9%;
+    --secondary: 220 10% 14%;
+    --secondary-foreground: 220 8% 85%;
+    --muted: 220 10% 14%;
+    --muted-foreground: 210 8% 65%;
+    --accent: 220 10% 14%;
+    --accent-foreground: 220 8% 85%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 8% 85%;
+    --border: 220 13% 13%;
+    --input: 220 13% 13%;
+    --ring: 220 13% 18%;
+    --radius: 0.5rem;
+    --shadow: 220 13% 5%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
