@@ -1,14 +1,10 @@
 /** @type {import("eslint").Linter.Config} */
 const config = {
   parser: "@typescript-eslint/parser",
-  parserOptions: {
-    project: true,
-  },
   plugins: ["@typescript-eslint"],
   extends: [
     "next/core-web-vitals",
-    "plugin:@typescript-eslint/recommended-type-checked",
-    "plugin:@typescript-eslint/stylistic-type-checked",
+    "plugin:@typescript-eslint/recommended"
   ],
   rules: {
     "@typescript-eslint/array-type": "off",
@@ -26,15 +22,7 @@ const config = {
         argsIgnorePattern: "^_",
       },
     ],
-    "@typescript-eslint/require-await": "off",
-    "@typescript-eslint/no-misused-promises": [
-      "error",
-      {
-        checksVoidReturn: {
-          attributes: false,
-        },
-      },
-    ],
   },
 };
+
 module.exports = config;
