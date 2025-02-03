@@ -113,8 +113,8 @@ export const Groups = {
   },
   Moderation: {
     ranks: [
-      rankConfigs.senioradmin,
       rankConfigs.headadmin,
+      rankConfigs.senioradmin,
       rankConfigs.admin,
       rankConfigs.seniormod,
       rankConfigs.moderator,
